@@ -5,8 +5,6 @@ import { User, Mail, Lock } from 'lucide-react';
 import { registerSchema, type RegisterInput } from '../../schemas/authSchemas';
 import { useAuth } from '../../hooks/useAuth';
 import { Button } from '../../components/ui/Button';
-import.meta.env.VITE_API_URL
-
 
 export const RegisterPage = () => {
   const { register: registerUser, isRegistering } = useAuth();
