@@ -5,7 +5,6 @@ import { Mail, Lock } from 'lucide-react';
 import { loginSchema, type LoginInput } from '../../schemas/authSchemas';
 import { useAuth } from '../../hooks/useAuth';
 import { Button } from '../../components/ui/Button';
-import.meta.env.VITE_API_URL
 
 export const LoginPage = () => {
   const { login, isLoggingIn } = useAuth();
